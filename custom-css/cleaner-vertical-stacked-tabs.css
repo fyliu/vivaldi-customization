@@ -1,0 +1,28 @@
+/*
+ * Cleaner vertical stacked tabs
+ * https://github.com/fangzhao/vivaldi-cleaner-vertical-stacked-tabs
+ */
+
+#tabs-tabbar-container,
+.tab-strip .tab:not(.tab-acceptsdrop) {
+  background: inherit !important;
+}
+
+#tabs-tabbar-container .tab:hover:not(.tab-acceptsdrop) {
+  background-color: var(--colorAccentBgAlphaHeavy) !important;
+  cursor: pointer;
+}
+
+.tab-strip .is-substack {
+  font-weight: 600;
+}
+
+.tab.active {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#tabs-subcontainer.left,
+#tabs-subcontainer.right {
+  box-shadow: none !important;
+}
