@@ -2,7 +2,7 @@
 /* ============ Vertical Tabs: Balanced Hover Expansion ============ */
 :root {
   --tabbar-collapsed: 72px;   /* parent collapsed width */
-  --tabbar-expanded: 300px;   /* parent expanded width */
+  --tabbar-expanded: 500px;   /* parent expanded width */
   --tabs-collapsed: 36px;     /* collapsed child width */
 }
 
