@@ -3,7 +3,7 @@
 :root {
   --tabbar-expanded: 500px;   /* parent expanded width */
   --tabs-collapsed: 42px;     /* collapsed child width */
-  --tabbar-collapsed: var(--tabs-collapsed) * 2;   /* parent collapsed width */
+  --tabbar-collapsed: calc(var(--tabs-collapsed) * 2);   /* parent collapsed width */
 }
 
 /* Parent collapsed by default */
